@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="play.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://kit.fontawesome.com/14c2e48067.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sideNav">           
+           <div class="top">
+                <img src="images/Spotify_Logo.png" class="logo"> 
+                <div class="navigation">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <span class="fa fa-home"></span>
+                          <span>Home</span>
+                        </a>
+                      </li>
+            
+                      <li>
+                        <a href="#">
+                          <span class="fa fa-search"></span>
+                          <span>Search</span>
+                        </a>
+                      </li>
+            
+                      <li>
+                        <a href="#">
+                          <span class="fa fas fa-book"></span>
+                          <span>Your Library</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+            
+                  <div class="navigation">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <span class="fa fas fa-plus-square"></span>
+                          <span>Create Playlist</span>
+                        </a>
+                      </li>
+            
+                      <li>
+                        <a href="#">
+                          <span class="fa fas fa-heart"></span>
+                          <span>Liked Songs</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="policies">
+                    <ul>
+                      <li>
+                        <a href="#">Cookies</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>         
+        </div>
+        <div class="home">
+            <div class="home-section">
+                <div class="home-left">
+                    <div class="arrow">
+                        <i class=" fa-sharp fa-solid fa-circle-chevron-left fa-2xl" style="color: #00000086;"></i>
+                        <i class=" fa-sharp fa-solid fa-circle-chevron-right fa-2xl" style="color: #00000086;"></i>
+                    </div>
+                    <img src="./assest/ab67706f00000002d073e656e546e43bc387ad79.jpeg" class="album-cover">
+                </div>
+                <div class="hero-right">
+                    <p class="album">
+                        Album
+                    </p>
+                    <h1 class="album-title">Peaceful Piano</h1>
+                    <p>
+                        <a href="#" class="artist"> <span>
+                          
+                            Peaceful piano to help you slow down, breathe, and relax.</span>
+                        </a> <span class="album-des">&#x2022 7,084,155 likes</span>
+                        <span class="album-des">&#x2022 309 songs,</span>
+                        <span class="album-des faded">about 12 hr</span>
+                    </p>
+                </div>
+            </div>
+            <div class="track-section">
+                <div class="line"></div>
+                <table class="track-list">
+
+                    <tr class="table-head">
+                        <th>#</th>
+                        <th>Title</th>
+                        <th>Duration</th>
+                    </tr>
+                    <div class="line"> </div>
+                    <tr class="block">
+                        <td>1</td>
+                        <td> <a href="#" class="song-name">Glance Out A Casement Window </a> <br> <a href="" class="song-artist"> Janet Regder
+                                 </a> </td>
+                        <td>2:10</td>
+                    </tr>
+                    <tr class="block">
+                        <td>2</td>
+
+                        <td> <a href="#" class="song-name">This Tinder Appeal</a> <br> <a href="" class="song-artist"> Allysium
+                               
+                                </a> </td>
+
+                        <td>2:48</td>
+                    </tr>
+                    <tr class="block">
+                        <td>3</td>
+                        <td> <a href="#" class="song-name"> Calm Wind
+                                </a> <br> <a href="" class="song-artist"> Elfrieda</a> </td>
+
+
+                        <td>2:20</td>
+                    </tr>
+                    <tr class="block">
+                        <td>4</td>
+
+                        <td> <a href="#" class="song-name"> A Time Long Ago</a> <br> <a href="" class="song-artist"> Polly Carter
+                            </a> </td>
+
+                        <td>2:15</td>
+                    </tr>
+                    <tr class="block">
+                        <td>5</td>
+
+                        <td> <a href="#" class="song-name">Onward </a> <br> <a href="" class="song-artist"> Remi Sincliar </a> </td>
+
+                        <td>2:14</td>
+                    </tr>
+                    <tr class="block">
+                        <td>6</td>
+
+                        <td> <a href="#" class="song-name">Your Happiness</a> <br> <a href="" class="song-artist"> Kisane</a> </td>
+
+                        <td>2:27</td>
+                    </tr>
+                  
+
+                </table>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="box1">
+                <img src="./assest/OIP.jpeg" alt="">
+                <div>
+                    <p class="title">Glance Out A Casement Window</p>
+                    <p class="artist">Janet Regder</p>
+                </div>
+                <i class=" heart uil uil-heart-alt"></i>
+
+            </div>
+            <div class="box2">
+                <div class="player">
+                    <i class="fas fa-3x fa-step-backward" id="previous" style="color:#c2c2c2;"></i>
+
+                    <!-- <img src="images/play icon.png" id="masterPlay" alt=""> -->
+                    <i class="far fa-3x fa-play-circle" id="masterPlay" style="color: #c2c2c2;"></i>
+                    <i class="fas fa-3x fa-step-forward" id="next" style="color: #c2c2c2;"></i>
+
+                </div>
+                <input type="range" name="song-slider" id="song-slider">
+            </div>
+            <div class="box3">
+                <i class="uil uil-volume-down"></i>
+                <input type="range" name="volume" id="myProgressBar" min="0" value="0" max="100">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous"></script>     
+</html>
